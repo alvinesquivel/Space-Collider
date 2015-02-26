@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a1c0ad30da8f940488bddb8562718bd4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - LaserPrefab: {fileID: 197174, guid: 990585ee715ceb84ea451cd8f130bf04, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

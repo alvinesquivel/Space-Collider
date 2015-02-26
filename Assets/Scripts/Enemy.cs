@@ -28,7 +28,6 @@ public class Enemy : MonoBehaviour
 		void Start ()
 		{
 		SetPositionAndSpeed();
-
 		}
 
 	
@@ -38,19 +37,20 @@ public class Enemy : MonoBehaviour
 		float amntToMove = currentSpeed * Time.deltaTime;
 		transform.Translate (Vector3.down * amntToMove);
 
-		if (transform.position.z <= -2){
+		if (transform.position.y <= -10){
 			SetPositionAndSpeed();
+
 
 		}
 
 		}
 		
-	void SetPositionAndSpeed()
+	public void SetPositionAndSpeed()
 	{
 		currentSpeed = Random.Range (MinSpeed, MaxSpeed);
-		x = Random.Range (-6f, 6f);
-		z = 20.0f;
-		y = 0.0f;
+		x = Random.Range (-4.40f, 4.70f);
+		z = 0f;
+		y = 10.0f;
 		
 		transform.position = new Vector3 (x, y, z);
 	}
