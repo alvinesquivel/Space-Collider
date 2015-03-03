@@ -9,10 +9,10 @@ public class BulletMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector3 pos = transform.position;
-		pos.z +=  maxSpeed * Time.deltaTime;
+		pos.y +=  maxSpeed * Time.deltaTime;
 		transform.position = pos;
 
-		if (gameObject.transform.position.z > 17) {
+		if (gameObject.transform.position.y > 10) {
 			Destroy (gameObject);		
 		}
 	}
