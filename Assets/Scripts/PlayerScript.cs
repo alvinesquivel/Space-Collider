@@ -12,8 +12,8 @@ public class PlayerScript : MonoBehaviour {
 	public static int Score = 0;
 	public static int Lives = 3;
 	public static int Missed = 0;
-	public float xMax, yMin, yMax;
-	float playerRadius = 0.5f;
+	public float xMin, xMax, yMin, yMax;
+
 
 
 
@@ -28,18 +28,30 @@ public class PlayerScript : MonoBehaviour {
 
 		transform.position = pos;
 
-		if (pos.x+playerRadius > xMax)
+		if (pos.x > xMax)
 		{
-			pos.x = xMax - playerRadius;
+			pos.x = xMax;
 			transform.position = pos;
 		}
 
-		if (pos.x + playerRadius < -xMax) 
+		if (pos.x < xMin) 
 		{
-			pos.x = -xMax + playerRadius;
+			pos.x = xMin;
 			transform.position = pos;
 		}
 
+		if (pos.y > yMax) 
+		{
+			pos.y = yMax;
+			transform.position = pos;
+				
+		}
+
+		if (pos.y < yMin)
+		{
+			pos.y = yMin;
+			transform.position = pos;
+		}
 
 
 		if (Input.GetKeyDown ("space")) 
