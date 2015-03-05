@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
 	public void SetPositionAndSpeed()
 	{
 		currentSpeed = Random.Range (MinSpeed, MaxSpeed);
-		x = Random.Range (-4.40f, 4.70f);
+		x = Random.Range (-7.80f, 7.80f);
 		z = 0f;
 		y = 10.0f;
 		

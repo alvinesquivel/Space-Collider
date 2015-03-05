@@ -71,8 +71,8 @@ public class PlayerScript : MonoBehaviour {
 
 	void BuildUI()
 	{
-		GUI.Label (new Rect(10, 10, 100, 20), "Score: " + PlayerScript.Score.ToString());
-		GUI.Label (new Rect(190, 10, 60, 20), "Lives: " + PlayerScript.Lives.ToString());
+		GUI.Label (new Rect(300, 10, 100, 20), "Score: " + PlayerScript.Score.ToString());
+		GUI.Label (new Rect(300, 30, 60, 20), "Lives: " + PlayerScript.Lives.ToString());
 
 	}
 
