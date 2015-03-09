@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Menu : MonoBehaviour
 {
-	private string instructions = "How to play:\nPress Left and Right Arrows to move.\nPress Space bar to fire.\n";
+
 	private int buttonWidth = 100;
 	private int buttonHeight = 30;
 		// Use this for initialization
@@ -15,7 +15,7 @@ public class Menu : MonoBehaviour
 		// Update is called once per frame
 		void OnGUI ()
 		{
-			GUI.Label (new Rect(10, 10, 250, 200), instructions);
+			
 			if (GUI.Button (new Rect ((Screen.width / 2 - buttonWidth / 2),
 		    	                 Screen.height / 2 - buttonHeight / 2, buttonWidth, buttonHeight), "Play Now")) 
 			{

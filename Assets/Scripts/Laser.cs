@@ -20,6 +20,7 @@ public class Laser : MonoBehaviour {
 
 	void OnTriggerEnter(Collider otherObject)
 	{
+
 		if (otherObject.CompareTag ("enemy")){
 
 			Enemy enemy = (Enemy)otherObject.gameObject.GetComponent ("Enemy");
@@ -27,6 +28,7 @@ public class Laser : MonoBehaviour {
 			enemy.SetPositionAndSpeed();
 
 			Destroy (gameObject);
+
 
 			PlayerScript.Score += 100;
 		}

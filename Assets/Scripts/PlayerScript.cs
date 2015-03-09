@@ -100,7 +100,13 @@ public class PlayerScript : MonoBehaviour {
 		gameObject.renderer.enabled = false;
 		transform.position = new Vector3 (0f, -7f, 0f);
 		yield  return new WaitForSeconds (1.5f);
-		gameObject.renderer.enabled = true;
+		if (PlayerScript.Lives > 0) 
+		{
+			gameObject.renderer.enabled = true;
+		} 
+		else
+			Application.LoadLevel (2);
+			
 
 	}
 
