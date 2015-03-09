@@ -19,3 +19,13 @@ of enemies and how many enemies the player is able to destroy.
 * One of the newest endless space shooter games
 * With extra Happiness
 * Built for kids who like space shooter games.
+
+
+***************************
+
+***Special Thanks to:***
+***************************
+
+* www.3dbuzz.com
+* www.youtube.com
+* www.unity3d.com
