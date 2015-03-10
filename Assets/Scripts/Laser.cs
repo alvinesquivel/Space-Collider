@@ -5,7 +5,17 @@ public class Laser : MonoBehaviour {
 	public GameObject ExplosionPrefab;
 	public float maxSpeed = 10;
 
-	
+	private Enemy enemy;
+
+
+
+	void Start ()
+	{
+		enemy = (Enemy)GameObject.Find("Enemy").GetComponent ("Enemy");
+
+			
+	}	
+
 	// Update is called once per frame
 	void Update () {
 		Vector3 pos = transform.position;
@@ -21,16 +31,20 @@ public class Laser : MonoBehaviour {
 	void OnTriggerEnter(Collider otherObject)
 	{
 
-		if (otherObject.CompareTag ("enemy")){
+		if (otherObject.tag == "enemy"){
 
-			Enemy enemy = (Enemy)otherObject.gameObject.GetComponent ("Enemy");
 			Instantiate (ExplosionPrefab, enemy.transform.position, enemy.transform.rotation);
+			enemy.MinSpeed += .5f;
+			enemy.MaxSpeed += .5f;
+
 			enemy.SetPositionAndSpeed();
 
 			Destroy (gameObject);
 
-
 			PlayerScript.Score += 100;
+
 		}
 	}
+
+
 }

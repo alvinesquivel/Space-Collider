@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
 		// Use this for initialization
 		void Start ()
 		{
-		SetPositionAndSpeed();
+			SetPositionAndSpeed();
 		}
 
 	
@@ -37,11 +37,12 @@ public class Enemy : MonoBehaviour
 		float amntToMove = currentSpeed * Time.deltaTime;
 		transform.Translate (Vector3.down * amntToMove);
 
-		if (transform.position.y <= -10){
-			SetPositionAndSpeed();
+			if (transform.position.y <= -10)
+			{
+				SetPositionAndSpeed();
 
 
-		}
+			}
 
 		}
 		

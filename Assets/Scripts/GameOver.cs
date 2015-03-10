@@ -8,8 +8,8 @@ public class GameOver : MonoBehaviour
 		// Use this for initialization
 	void OnGUI ()
 	{
-		GUI.Label (new Rect (300, 120, 200, 100), "Game Over!");
-		GUI.Label (new Rect (300, 140, 200, 100), "Your Score: " +PlayerScript.Score);
+		GUI.Label (new Rect (200, 120, 200, 100), "Game Over!");
+		GUI.Label (new Rect (200, 140, 200, 100), "Your Score: " +PlayerScript.Score);
 		if (GUI.Button (new Rect ((Screen.width / 2 - buttonWidth / 2),
 		                          Screen.height / 2 - buttonHeight / 2, buttonWidth, buttonHeight), "Play Again")) 
 		{
