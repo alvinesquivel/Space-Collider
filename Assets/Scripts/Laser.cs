@@ -31,7 +31,8 @@ public class Laser : MonoBehaviour {
 	void OnTriggerEnter(Collider otherObject)
 	{
 
-		if (otherObject.tag == "enemy"){
+		if (otherObject.tag == "enemy")
+		{
 
 			Instantiate (ExplosionPrefab, enemy.transform.position, enemy.transform.rotation);
 			enemy.MinSpeed += .5f;
