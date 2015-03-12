@@ -19,7 +19,7 @@ public class Scroll : MonoBehaviour
 
 			if (transform.position.y < -25)
 			{
-			transform.position = new Vector3(transform.position.x, 41f, transform.position.z);
+			transform.position = new Vector3(transform.position.x, 38.55f, transform.position.z);
 			}
 		}
 }

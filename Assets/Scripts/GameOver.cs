@@ -18,6 +18,11 @@ public class GameOver : MonoBehaviour
 			Application.LoadLevel(1);
 			
 		}
+
+		if (GUI.Button(new Rect ((Screen.width / 2 - buttonWidth / 2), (Screen.height / 2 - buttonHeight / 2 + 50), buttonWidth, buttonHeight), "Quit"))
+		{
+			Application.Quit();
+		}
 	}
 }
 
