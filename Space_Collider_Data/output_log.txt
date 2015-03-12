@@ -12,14 +12,32 @@ Platform assembly: C:\Users\Admin\Documents\GitHub\Space-Collider\Space_Collider
 Loading C:\Users\Admin\Documents\GitHub\Space-Collider\Space_Collider_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Admin\Documents\GitHub\Space-Collider\Space_Collider_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Admin\Documents\GitHub\Space-Collider\Space_Collider_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.080 seconds
+- Completed reload, in  0.089 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Admin\Documents\GitHub\Space-Collider\Space_Collider_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.320334 ms
+UnloadTime: 0.412700 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 177.
-Total: 0.879209 ms (FindLiveObjects: 0.012751 ms CreateObjectMapping: 0.012440 ms MarkObjects: 0.146172 ms  DeleteObjects: 0.005598 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 6.781405 ms (FindLiveObjects: 0.019904 ms CreateObjectMapping: 0.012440 ms MarkObjects: 0.167941 ms  DeleteObjects: 5.804858 ms)
+
+UnloadTime: 0.594325 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 126.
+Total: 7.896971 ms (FindLiveObjects: 0.013684 ms CreateObjectMapping: 0.012440 ms MarkObjects: 0.127821 ms  DeleteObjects: 6.439925 ms)
+
+UnloadTime: 0.330906 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 175.
+Total: 1.679101 ms (FindLiveObjects: 0.012129 ms CreateObjectMapping: 0.012440 ms MarkObjects: 0.162343 ms  DeleteObjects: 0.172917 ms)
+
+UnloadTime: 0.742051 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 126.
+Total: 5.767849 ms (FindLiveObjects: 0.013062 ms CreateObjectMapping: 0.014928 ms MarkObjects: 0.153635 ms  DeleteObjects: 4.255133 ms)
 

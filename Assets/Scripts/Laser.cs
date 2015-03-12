@@ -39,11 +39,14 @@ public class Laser : MonoBehaviour {
 
 			enemy.SetPositionAndSpeed();
 
-			Destroy (gameObject);
+			Destroy (this.gameObject);
 
 			PlayerScript.Score += 100;
 
 		}
+
+
+
 	}
 
 
